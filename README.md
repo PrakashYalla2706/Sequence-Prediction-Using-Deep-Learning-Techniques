@@ -17,7 +17,7 @@ This project focuses on predicting sequences using advanced deep learning method
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python
 - Pandas
 - NumPy
