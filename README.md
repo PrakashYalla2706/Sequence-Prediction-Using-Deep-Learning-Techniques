@@ -1,11 +1,11 @@
-# 📊 Sequence Prediction Using Deep Learning Techniques
+#  Sequence Prediction Using Deep Learning Techniques
 
-## 🚀 Overview
+##  Overview
 This project focuses on predicting sequences using advanced deep learning methods, specifically **Long Short-Term Memory (LSTM)** networks. The goal is to forecast the sequence of file blocks accessed by client applications in a distributed file system environment. By utilizing synthetic log data containing file and block access patterns, we preprocess the data and train an LSTM model to predict future block sequences based on the frequency of block usage.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - **Deep Learning Model:** LSTM-based sequence prediction model
 - **Dataset:** 100,000 synthetic log entries (10 racks, 10 data nodes per rack, 10,000 files, and 1,000 blocks)
 - **Performance:**
@@ -17,7 +17,7 @@ This project focuses on predicting sequences using advanced deep learning method
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 - Python
 - Pandas
 - NumPy
@@ -26,7 +26,7 @@ This project focuses on predicting sequences using advanced deep learning method
 
 ---
 
-## 📂 Dataset
+##  Dataset
 The dataset consists of synthetic logs simulating access patterns in a distributed file system:
 - **Files:** 10,000
 - **Blocks:** 1,000
@@ -36,7 +36,7 @@ The dataset consists of synthetic logs simulating access patterns in a distribut
 
 ---
 
-## 📋 Methodology
+##  Methodology
 1. **Data Collection:** Synthetic log generation using Medisyn technique.
 2. **Preprocessing:**
    - Converted raw text file to CSV format.
